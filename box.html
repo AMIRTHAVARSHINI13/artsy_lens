@@ -1,0 +1,19 @@
+<title>Mouse_Event_Listener</title> <script type="text/javascript">
+  window.addEventListener("load", start, false);
+  function start()
+  {
+  document.getElementById("picture").addEventListener("mouseover", over, false ); 
+  document.getElementById("picture").addEventListener("mouseout", out, false);
+  }
+  function over(e)
+  {
+  document.getElementById("picture").setAttribute("src", "moon.jpeg");
+  }
+  function out (e)
+  {
+  e.target.setAttribute("src", "flower.jpg");
+  }
+  </script>
+  </head>
+  <body>
+  <img src="flower.jpg" id="picture" alt="Heading Image">

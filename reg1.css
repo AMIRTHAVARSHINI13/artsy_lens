@@ -1,0 +1,117 @@
+
+  
+  * {
+    box-sizing:border-box;
+  }
+  .Img{
+    background-image:url("reg.webp");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 1000px;
+    top: 25%;
+  }  
+  .bg-img {
+    /* The image used */
+    background-image: url("front.jpg");
+    /* Control the height of the image */
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    min-height: 1000px;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position:absolute;
+    top:20%;
+    left: 40%;
+    right: 0;
+    max-width: 500px;
+    padding: 16px;
+    background-color: rgba(220, 204, 204, 0.245);
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password],input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus , input[type=tel]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #0f0e0e;
+    color: rgb(243, 237, 237);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  h1{
+    font-size: 40px;
+    color: #080a0b;
+    text-align:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: #0f0f0e;
+    margin-bottom: 1.4rem;
+  }
+  h2{
+    font-size: 40px;
+    color: #e6ecef;
+    text-align:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration:dotted;
+    text-shadow: #0f0f0e;
+    margin-bottom: 1.4rem;
+  }
+  .eyePass, .eyeCPass {
+    width: 90%;
+    padding: 7px;
+    height: 23px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    }
+    .eyePass input, .eyeCPass input{
+    width: 100%;
+    height: 0px;
+    padding: 7px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    }
+    .eyePass img, .eyeCPass img{
+    width: 19px;
+    cursor: pointer;
+    
+    }
+    .time{
+      width: 470px;
+      padding: 10px;
+    }
